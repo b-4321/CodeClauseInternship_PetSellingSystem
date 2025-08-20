@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌈 Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* 🐾 Brand Accent Colors */
+:root {
+  --primary: #ec4899; /* Tailwind pink-500 */
+  --secondary: #f9a8d4; /* pink-300 */
+  --glass-bg: rgba(255, 255, 255, 0.3);
+  --glass-blur: blur(12px);
+}
+
+/* ✨ Glassmorphism Utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 🖱️ Smooth Hover Transitions */
+a, button {
+  transition: all 0.3s ease;
+}
+
+
+
