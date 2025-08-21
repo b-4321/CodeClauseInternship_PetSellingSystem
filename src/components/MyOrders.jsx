@@ -8,7 +8,7 @@ const orders = [
     type: 'Dog',
     status: 'Adopted',
     date: '2025-08-01',
-    image: '/pets/luna.jpg',
+    image: '/pets/dog1.jpg',
   },
   {
     id: 'ORD002',
@@ -16,7 +16,7 @@ const orders = [
     type: 'Cat',
     status: 'Pending',
     date: '2025-08-03',
-    image: '/pets/milo.jpg',
+    image: '/pets/cat1.jpg',
   },
   {
     id: 'ORD003',
@@ -24,7 +24,7 @@ const orders = [
     type: 'Rabbit',
     status: 'Cancelled',
     date: '2025-08-04',
-    image: '/pets/ziggy.jpg',
+    image: '/pets/rabbit1.jpg',
   },
 ]
 

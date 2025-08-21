@@ -3,10 +3,16 @@ import { motion } from 'framer-motion'
 import PetCard from './PetCard'
 
 const pets = [
-  { id: 1, name: 'Luna', type: 'Dog', mood: 'happy', image: '/pets/luna.jpg' },
-  { id: 2, name: 'Milo', type: 'Cat', mood: 'calm', image: '/pets/milo.jpg' },
-  { id: 3, name: 'Ziggy', type: 'Rabbit', mood: 'energetic', image: '/pets/ziggy.jpg' },
-  { id: 4, name: 'Nova', type: 'Dog', mood: 'mysterious', image: '/pets/nova.jpg' },
+  { id: 1, name: 'Luna', type: 'Dog', mood: 'happy', image: '/pets/dog1.jpg' },
+  { id: 2, name: 'Milo', type: 'Cat', mood: 'calm', image: '/pets/cat1.jpg' },
+  { id: 3, name: 'Ziggy', type: 'Rabbit', mood: 'energetic', image: '/pets/rabbit1.jpg' },
+  { id: 4, name: 'Nova', type: 'Dog', mood: 'mysterious', image: '/pets/dog2.jpg' },
+  { id: 5, name: 'Bella', type: 'Cat', mood: 'happy', image: '/pets/cat2.jpg' },
+  { id: 6, name: 'Charlie', type: 'Dog', mood: 'calm', image: '/pets/dog3.jpg' },
+  { id: 7, name: 'Daisy', type: 'Rabbit', mood: 'energetic', image: '/pets/rabbit2.jpg' },
+  { id: 8, name: 'Max', type: 'Dog', mood: 'mysterious', image: '/pets/dog4.jpg' },
+  { id: 9, name: 'Oliver', type: 'Cat', mood: 'happy', image: '/pets/cat3.jpg' },
+
 ]
 
 const moodColors = {
